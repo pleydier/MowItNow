@@ -6,8 +6,7 @@ import scala.reflect.io.File
 
 object TestTondeuse {
   def main(args: Array[String]): Unit = {
-    //val filename = "C:\\Users\\paull\\IdeaProjects\\MowItNow\\data\\input.txt" // Input file
-    val filename = "data\\input.txt" // Relative path
+    val filename = "data\\input.txt" // Relative path to the input file
 
     // Handling input file
     val bufferedSource = Source.fromFile(filename)
