@@ -2,10 +2,12 @@ package projet_tondeuse
 
 import scala.collection.mutable.ListBuffer
 import scala.io.Source
+import scala.reflect.io.File
 
 object TestTondeuse {
   def main(args: Array[String]): Unit = {
-    val filename = "C:\\Users\\paull\\IdeaProjects\\MowItNow\\data\\input.txt" // Input file
+    //val filename = "C:\\Users\\paull\\IdeaProjects\\MowItNow\\data\\input.txt" // Input file
+    val filename = "data\\input.txt" // Relative path
 
     // Handling input file
     val bufferedSource = Source.fromFile(filename)
